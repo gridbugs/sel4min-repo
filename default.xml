@@ -4,11 +4,10 @@
     <remote fetch="https://github.com/sel4proj" name="sel4proj" />
     <remote fetch="https://github.com/nanopb" name="nanopb" />
     <remote fetch="https://github.com/stevebob" name="stevebob" />
-    <remote fetch="/home/steve/src/sel4min/" name="local" />
 
 <default revision="master" remote="seL4" />
 
-<project name="sel4min-project" remote="local" path="projects/sel4min">
+<project name="sel4min-project" remote="stevebob" path="projects/sel4min">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake" />
 </project>
 
